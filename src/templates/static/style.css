@@ -1,0 +1,10 @@
+:root {
+    --style1-bgcolor: white;
+    --style1-text-color: rgb(19, 19, 19);
+
+    --style2-bgcolor: rgb(240, 240, 240);
+    --style2-txtcolor: var(--style1-text-color);
+
+    --button-color1: rgb(148, 20, 187);
+    --button-color2: var(--button-color1);
+}
