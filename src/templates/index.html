@@ -3,9 +3,12 @@
 <head>
   <title>AuraCSS - A simple CSS "Framework"</title>
 
-  <link rel="stylesheet" href="./static/auracss-v0.1.css">
-  <link rel="stylesheet" href="./static/auramedia.css">
+  <link rel="stylesheet" href="C:/Users/Saltylelele/Documents/GitHub/css-preset/css/style.css">
+  <link rel="stylesheet" href="C:/Users/Saltylelele/Documents/GitHub/css-preset/css/media.css">
   <link rel="stylesheet" href="./static/style.css">
+  <!--boxIcons  -->
+  <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,7 +19,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body class="">
-    <nav>
+    <nav class="top around bold">
+        <!-- Old navbar-->
+        <!--
         <div class="background color s1">
             <div class="row align center">
                 <div class="col s100 xs-s100 s-s100 txt center">
@@ -26,18 +31,48 @@
                 </div>
             </div>
         </div>
+        -->
+        <div class="logocontainer">
+            <i class='bx bx-hive'></i>
+            <h2>AuraCSS</h2>
+        </div>
+        <ul class="between"> 
+            <li>
+                <a href="">
+                    <i class='bx bx-home'></i>
+                    <span>Home</span>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <i class='bx bx-code-alt'></i>
+                    <span>Features</span>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <i class='bx bx-code-alt'></i>
+                    <span>Test</span>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <i class='bx bx-code-alt'></i>
+                    <span>Downloads</span>
+                </a>
+            </li>
+        </ul>
     </nav>
     <div class="container s90">
         <div class="row">
             <!--Primary section-->
-            <div class="col s75 pad-none">
+            <div class="col s75 xs-s100 s-s100 m-s100 pad-none">
                 <h2>Keep it simple</h2>
                 <p>This small CSS framework has a suprising amount of features for it's size. Want colums? Check! Maybe you want images on your background, essentially small banners? We got that too! Everything can easily be configured from either the primary sheet or a secondary sheet (both are available for download)</p>
-                
                 <h2>Features</h2>
                 <div class="col s100 pad-none">
                     <div class="row around">
-                        <div class="col s33">
+                        <div class="col s33 xs-s100 s-s50 m-s50">
                             <div class="card background color s2 border round">
                                 <div class="card-content txt center">
                                     <h2>Grid</h2>
@@ -45,7 +80,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col s33">
+                        <div class="col s33 xs-s100 s-s50 m-s50">
                             <div class="card background color s2 border round">
                                 <div class="card-content txt center">
                                     <h2>Styles</h2>
@@ -53,7 +88,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col s33">
+                        <div class="col s33 xs-s100 s-s50 m-s50">
                             <div class="card background color s2 border round">
                                 <div class="card-content txt center">
                                     <h2>Responsive</h2>
@@ -61,6 +96,38 @@
                                 </div>
                             </div>
                         </div>
+                        <div class="col s33 xs-s100 s-s50 m-s50">
+                            <div class="card background image border round txt color s2" style="--image: url(C:/Users/Saltylelele/Documents/GitHub/auracss-website/src/templates/static/img/card_bg.PNG)">
+                                <div class="card-content txt center">
+                                    <h2>Background Image Support</h2>
+                                    <p>Aything can have an image as background, the easy way!</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col s33 xs-s100 s-s50 m-s50">
+                            <div class="card background color s2 border round">
+                                <div class="card-content txt center">
+                                    <h2>Easy configuration</h2>
+                                    <p>Everything is easily configurable! Most things can be controlled by Vars and regular CSS.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col s33 xs-s100 s-s50 m-s50">
+                            <div class="card background color s2 border round">
+                                <div class="card-content txt center">
+                                    <h2>Open-Source</h2>
+                                    <p>All the source code is obviously fully available on our Github!</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--bonk-->
+                </div>
+                <div class="row background color s2 border round none">
+                    <div class="col none xs-s100 s-s100 m-s100">
+                        <h2>Latest release</h2>
+                        <img src="https://img.shields.io/github/v/release/AtherActive/auracss?style=flat-square" alt="">
+                        <img src="https://img.shields.io/github/v/release/AtherActive/auracss?include_prereleases&style=flat-square" alt="">
                     </div>
                 </div>
             </div>
