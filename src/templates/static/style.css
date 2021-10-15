@@ -6,5 +6,5 @@
     --style2-txtcolor: var(--style1-text-color);
 
     --button-color1: rgb(148, 20, 187);
-    --button-color2: var(--button-color1);
+    --button-color2: var(--style2-bgcolor);
 }
